@@ -1,0 +1,9 @@
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - gndiff =0.2.0
+  - jupyterlab
+  - ipykernel
+  - pandas
+  - visidata =2.11
