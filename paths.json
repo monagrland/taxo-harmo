@@ -1,0 +1,7 @@
+{
+    "dataset" : "data/0097412-230224095556074.csv",
+    "gbif_backbone" : "resources/gbif_backbone/Taxon.tsv",
+    "ncbi_taxidlineage" : "resources/ncbi_taxonomy/taxidlineage.dmp",
+    "ncbi_nodes" : "resources/ncbi_taxonomy/nodes.dmp",
+    "ncbi_names" : "resources/ncbi_taxonomy/names.dmp"
+}
