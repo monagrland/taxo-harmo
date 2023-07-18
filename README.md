@@ -40,6 +40,7 @@ File organization:
 ├── env                     # Conda environments (git ignored)
 ├── environment.yml         # Conda environment definition file
 ├── name-match              # Intermediate working files (git ignored)
+├── paths.json              # Paths to input files for notebook
 ├── README.md               # This Readme file
 ├── resources               # Source databases (git ignored)
 └── results                 # Results files for manual curation
@@ -52,6 +53,37 @@ Versions of databases used:
    (the 2022-11-23 version was only publicly released on 2023-03-29)
  * NCBI Taxonomy:
    "https://ftp.ncbi.nlm.nih.gov/pub/taxonomy/taxdump_archive/new_taxdump_2022-12-01.zip"
+
+
+Re-running the code
+-------------------
+
+Re-running the code will produce different results because Wikidata is continuously updated.
+
+First set up the Conda environment with the required code (recommend doing this
+with Mamba instead of Conda).
+
+```
+mkdir -p env
+mamba env create -f environment.yml -p ./env/taxo-harmo
+```
+
+Download and extract the dataset and database files
+
+```
+bash get_data.sh
+```
+
+Run the notebook either interactively or at the command line. The following
+example code will execute the notebook and write output to HTML format. Conda
+environment has to be activated first.
+
+```
+conda activate ./env/taxo-harmo
+mkdir -p results name-match
+jupyter nbconvert --to html --ExecutePreprocessor.kernel=python3 \
+  --execute compare-names.ipynb --output=compare-names.html
+```
 
 
 Citations
