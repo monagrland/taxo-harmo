@@ -58,7 +58,9 @@ Versions of databases used:
 Re-running the code
 -------------------
 
-Re-running the code will produce different results because Wikidata is continuously updated.
+Re-running the code will produce different results because Wikidata is
+continuously updated. The Wikidata QuickStatements commands in this repository
+should not be run as-is!
 
 First set up the Conda environment with the required code (recommend doing this
 with Mamba instead of Conda).
