@@ -2,7 +2,8 @@ Curation of vascular plant species list for reference database
 ==============================================================
 
 Case study to illustrate linking of taxonomic identifiers and incorporation of
-Wikidata into workflow
+Wikidata into workflow. Please see [preprint](https://doi.org/10.32942/X2Q01H)
+for further details.
 
 Aim: Build reference database of barcode marker sequences for vascular plants
 from Germany by matching checklist to NCBI taxonIDs.
