@@ -2,8 +2,8 @@ Curation of vascular plant species list for reference database
 ==============================================================
 
 Case study to illustrate linking of taxonomic identifiers and incorporation of
-Wikidata into workflow. Please see [preprint](https://doi.org/10.32942/X2Q01H)
-for further details.
+Wikidata into workflow. Please see the
+[paper](https://doi.org/10.3897/BDJ.11.e114076) for further details.
 
 Aim: Build reference database of barcode marker sequences for vascular plants
 from Germany by matching checklist to NCBI taxonIDs.
@@ -89,8 +89,8 @@ jupyter nbconvert --to html --ExecutePreprocessor.kernel=python3 \
 ```
 
 
-Citations
----------
+Sources
+-------
 
 Bundesamt für Naturschutz / Netzwerk Phytodiversität Deutschland. Flora von
 Deutschland (Phanerogamen). Occurrence dataset https://doi.org/10.15468/0fxsox
@@ -105,3 +105,9 @@ Deutschlands. DE: Bundesamt für Naturschutz, 2018.
  * Spreadsheet with corrections: https://www.floraweb.de/download/checkliste/skript519.zip
  * FloraWeb homepage: https://www.floraweb.de/downloads.html
 
+
+Citation
+--------
+Seah B. (2023) Paying it forward: Crowdsourcing the harmonisation and linking
+of taxon names and biodiversity identifiers. ''Biodiversity Data Journal''
+11 : e114076. https://doi.org/10.3897/BDJ.11.e114076
