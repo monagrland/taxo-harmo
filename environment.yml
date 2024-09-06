@@ -7,3 +7,7 @@ dependencies:
   - ipykernel
   - pandas
   - visidata =2.11
+  - pip
+  - pip:
+    - string2string
+    - textdistance
